@@ -1,0 +1,115 @@
+header{
+  display: flex;
+  width: 100%;
+}
+.tiempo{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+.tiempo p{
+  padding-left: 50px;
+  font-size: 20px;
+}
+.logito img{
+  width: 350px;
+  height: 200px;
+  padding-left: 50px;
+  transition: transform 0.3s ease;
+}
+.logito img:hover{
+  transform: scale(1.2);
+}
+.banner img{
+  width: 100%;
+  height: 350px;
+}
+.centro{
+  display: flex;
+  text-align: center;
+}
+.img-text{
+  width: 800px;
+  margin-top: 120px;
+}
+.img-text img{
+  width: 550px;
+  height: 300px;
+}
+.img-text h2{
+  text-align: left;
+  padding-left: 120px;
+}
+.img-text p{
+  text-align: left;
+  padding-left: 120px;
+}
+
+.formulary{
+  text-align: left;
+  margin: 50px;
+}
+.formulary h2{
+  color: crimson;
+}
+.borde{
+  border: 1px solid black;
+  width: 700px;
+}
+.formu{
+  padding: 10px;
+}
+.formu input{
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(220, 220, 220, 0.267);
+}
+.formu label{
+  font-size: 25px;
+  font-family: sans-serif;
+  color: black;
+}
+.formu textarea{
+  width: 400px;
+  resize: none;
+  border-radius: 10px;
+  background-color: rgba(220, 220, 220, 0.267);
+}
+.formulary button{
+  background-color: rgb(51, 255, 0);
+  margin: 20px;
+}
+
+
+
+
+
+.pie{
+  background-color: rgb(18, 190, 18);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+.subs{
+  color: white;
+  margin-top: 40px;
+}
+.redes{
+  margin-left: 1200px;
+  margin-top: 90px;
+}
+.redes img{
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s, filter 0.3s;
+  cursor: pointer;
+}
+.redes img:hover {
+  transform: scale(1.1); 
+  filter: brightness(80%);
+}
